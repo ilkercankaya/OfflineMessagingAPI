@@ -1,13 +1,13 @@
 # Offline Messaging Back-End
-A RESTFul back-end made with ASP .NET Framework with MVC (Model View Controller) to allow users to message offline. Eg. __gmail__
+A RESTFul back-end made with ASP .NET Framework with MVC (Model View Controller) to allow users to Message/Mail offline. Eg. __gmail__
 
 # How It Works
-Users can register, login, send messages, read previous messages, block each other.
+Users can register, login, send Message/Mail, read previous Messages/Mails, block each other.
 * Users can register, login and after these steps, they can obtain a bearer token to be validated by the back-end to process their request.
-* Users can message each other as long as they know each other's ID.
-* Messages contain the text of the message and the sent date.
-* Users can access their previous messages concerning either a specific user or all messages categorized by userID and sorted by sentDate for each category. 
-* If user A blocks user B, messages sent by user B to user A is not readable by user A after blocking has been made.
+* Users can Message/Mail each other as long as they know each other's ID.
+* Messages/Mails contain a text of body and the sent date.
+* Users can access their previous Messages/Mails concerning either a specific user or all Messages/Mails categorized by userID and sorted by sentDate for each category. 
+* If user A blocks user B, Messages/Mails sent by user B to user A is not readable by user A after blocking has been made.
 
 
 # Back-End Features
