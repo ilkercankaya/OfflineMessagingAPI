@@ -9,7 +9,6 @@ Users can register, login, send Message/Mail, read previous Messages/Mails, bloc
 * Users can access their previous Messages/Mails concerning either a specific user or all Messages/Mails categorized by userID and sorted by sentDate for each category. 
 * If user A blocks user B, Messages/Mails sent by user B to user A is not readable by user A after blocking has been made.
 
-
 # Back-End Features
 * Is RESTFul (JSON format in requests, responses).
 * Users have individual accounts for authorization that can register, login, get a bearer token with __Identity__ library.
